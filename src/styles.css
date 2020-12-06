@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+
+article {
+  @apply w-screen p-10 bg-white flex flex-col sm:flex-row;
+}
+
+article div {
+  @apply sm:w-1/2 sm:p-5 w-full flex flex-col justify-center content-center;
+}
+
+article div h2 {
+  @apply text-center sm:text-6xl text-4xl uppercase mt-4;
+}
+
+article div h3 {
+  @apply text-center text-lg mt-2 italic;
+}
+
+article div ul {
+  @apply list-disc sm:text-center text-left mt-4;
+}
+
+article div img {
+  @apply w-full h-full;
+}
+
+@tailwind utilities;
